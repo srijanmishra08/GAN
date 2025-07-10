@@ -1,0 +1,5 @@
+Using device: cpu
+Dataset: cifar10, Batch size: 256, Total batches: 196
+Model parameters: 136,387
+Epoch 0:   0%|                                                                      | 0/196 [00:00<?, ?it/s]/Users/s/Desktop/GAN/diffusion-cifar10/venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py:683: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, then device pinned memory won't be used.
+  warnings.warn(warn_msg)

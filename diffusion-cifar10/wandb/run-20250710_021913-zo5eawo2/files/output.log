@@ -1,0 +1,12 @@
+Using device: cpu
+100%|████████████████████████████████████████████████████████████████████| 170M/170M [00:59<00:00, 2.87MB/s]
+Dataset: cifar10, Batch size: 64, Total batches: 782
+Model parameters: 31,956,099
+Traceback (most recent call last):
+  File "/Users/s/Desktop/GAN/diffusion-cifar10/train.py", line 254, in <module>
+    main()
+  File "/Users/s/Desktop/GAN/diffusion-cifar10/train.py", line 196, in main
+    optimizer = optim.Adam(model.parameters(), lr=config['learning_rate'])
+  File "/Users/s/Desktop/GAN/diffusion-cifar10/venv/lib/python3.9/site-packages/torch/optim/adam.py", line 57, in __init__
+    if not 0.0 <= lr:
+TypeError: '<=' not supported between instances of 'float' and 'str'

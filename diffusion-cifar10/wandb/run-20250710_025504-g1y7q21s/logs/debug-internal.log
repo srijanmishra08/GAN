@@ -1,0 +1,8 @@
+{"time":"2025-07-10T02:55:04.485373+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-10T02:55:04.965446+05:30","level":"INFO","msg":"stream: created new stream","id":"g1y7q21s"}
+{"time":"2025-07-10T02:55:04.96548+05:30","level":"INFO","msg":"stream: started","id":"g1y7q21s"}
+{"time":"2025-07-10T02:55:04.965489+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g1y7q21s"}
+{"time":"2025-07-10T02:55:04.965497+05:30","level":"INFO","msg":"handler: started","stream_id":"g1y7q21s"}
+{"time":"2025-07-10T02:55:04.965885+05:30","level":"INFO","msg":"sender: started","stream_id":"g1y7q21s"}
+{"time":"2025-07-10T03:01:04.401533+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/reshuffle/diffusion-cifar10/g1y7q21s/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-10T03:01:45.163906+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/reshuffle/diffusion-cifar10/g1y7q21s/file_stream\": unexpected EOF"}

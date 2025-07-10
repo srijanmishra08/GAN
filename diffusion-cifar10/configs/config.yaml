@@ -1,0 +1,33 @@
+# Training configuration - Ultra-fast 2-hour training
+dataset: 'cifar10'  # or 'mnist'
+batch_size: 256  # Much larger batch size
+learning_rate: 0.001  # Higher learning rate for faster convergence
+num_epochs: 5  # Very few epochs
+image_size: 32
+channels: 3
+
+# Model configuration - Minimal size for speed
+model:
+  dim: 16  # Very small base dimension
+  dim_mults: [1, 2]  # Only 2 levels
+  num_resnet_blocks: 1
+  attn_resolutions: []  # No attention for speed
+  dropout: 0.0  # No dropout for speed
+
+# Diffusion configuration
+diffusion:
+  timesteps: 200  # Very few timesteps
+  beta_schedule: 'cosine'
+  loss_type: 'l2'
+
+# Logging
+wandb:
+  project: 'diffusion-cifar10'
+  entity: 'reshuffle'
+  log_interval: 25  # More frequent logging
+
+# Advanced features - Disabled for speed
+use_perceptual_loss: false
+perceptual_weight: 0.0
+feature_matching: false
+feature_weight: 0.0 

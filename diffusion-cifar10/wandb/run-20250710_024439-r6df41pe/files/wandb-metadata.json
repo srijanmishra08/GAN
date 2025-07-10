@@ -1,0 +1,33 @@
+{
+  "os":  "macOS-15.5-arm64-arm-64bit",
+  "python":  "CPython 3.9.6",
+  "startedAt":  "2025-07-09T21:14:39.214528Z",
+  "program":  "/Users/s/Desktop/GAN/diffusion-cifar10/train.py",
+  "codePath":  "train.py",
+  "codePathLocal":  "train.py",
+  "email":  "srijanmishram@gmail.com",
+  "root":  "/Users/s/Desktop/GAN/diffusion-cifar10",
+  "host":  "Mac",
+  "executable":  "/Users/s/Desktop/GAN/diffusion-cifar10/venv/bin/python3",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "167512883200"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M4",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  16,
+    "swapTotalBytes":  "20401094656",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "zj04u241fjzolfm04x50tp5b0llu8x52"
+}

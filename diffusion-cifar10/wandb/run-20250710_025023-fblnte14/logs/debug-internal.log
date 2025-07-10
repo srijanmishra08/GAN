@@ -1,0 +1,6 @@
+{"time":"2025-07-10T02:50:24.624395+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-10T02:50:25.109816+05:30","level":"INFO","msg":"stream: created new stream","id":"fblnte14"}
+{"time":"2025-07-10T02:50:25.109863+05:30","level":"INFO","msg":"stream: started","id":"fblnte14"}
+{"time":"2025-07-10T02:50:25.111313+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fblnte14"}
+{"time":"2025-07-10T02:50:25.112716+05:30","level":"INFO","msg":"handler: started","stream_id":"fblnte14"}
+{"time":"2025-07-10T02:50:25.112834+05:30","level":"INFO","msg":"sender: started","stream_id":"fblnte14"}

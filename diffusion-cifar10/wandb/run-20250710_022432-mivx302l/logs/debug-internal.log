@@ -1,0 +1,6 @@
+{"time":"2025-07-10T02:24:32.327493+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-10T02:24:32.800671+05:30","level":"INFO","msg":"stream: created new stream","id":"mivx302l"}
+{"time":"2025-07-10T02:24:32.800702+05:30","level":"INFO","msg":"stream: started","id":"mivx302l"}
+{"time":"2025-07-10T02:24:32.800718+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mivx302l"}
+{"time":"2025-07-10T02:24:32.800767+05:30","level":"INFO","msg":"handler: started","stream_id":"mivx302l"}
+{"time":"2025-07-10T02:24:32.800987+05:30","level":"INFO","msg":"sender: started","stream_id":"mivx302l"}

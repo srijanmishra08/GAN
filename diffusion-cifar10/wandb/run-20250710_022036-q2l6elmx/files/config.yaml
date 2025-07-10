@@ -1,0 +1,91 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            4pwbnuewek16zjcmbkqyk08y7itl0k9v:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 8
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "15032385536"
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "161778913280"
+                email: srijanmishram@gmail.com
+                executable: /Users/s/Desktop/GAN/diffusion-cifar10/venv/bin/python3
+                host: Mac
+                memory:
+                    total: "17179869184"
+                os: macOS-15.5-arm64-arm-64bit
+                program: /Users/s/Desktop/GAN/diffusion-cifar10/train.py
+                python: CPython 3.9.6
+                root: /Users/s/Desktop/GAN/diffusion-cifar10
+                startedAt: "2025-07-09T20:50:36.008453Z"
+                writerId: 4pwbnuewek16zjcmbkqyk08y7itl0k9v
+        m: []
+        python_version: 3.9.6
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 13
+                - 16
+            "4": 3.9.6
+            "5": 0.21.0
+            "12": 0.21.0
+            "13": darwin-arm64
+batch_size:
+    value: 64
+channels:
+    value: 3
+dataset:
+    value: cifar10
+diffusion:
+    value:
+        beta_schedule: cosine
+        loss_type: l2
+        timesteps: 1000
+feature_matching:
+    value: true
+feature_weight:
+    value: 0.05
+image_size:
+    value: 32
+learning_rate:
+    value: 0.0002
+model:
+    value:
+        attn_resolutions:
+            - 16
+            - 8
+        dim: 64
+        dim_mults:
+            - 1
+            - 2
+            - 4
+            - 8
+        dropout: 0.1
+        num_resnet_blocks: 2
+num_epochs:
+    value: 100
+perceptual_weight:
+    value: 0.1
+use_perceptual_loss:
+    value: true
+wandb:
+    value:
+        entity: reshuffle
+        log_interval: 100
+        project: diffusion-cifar10
